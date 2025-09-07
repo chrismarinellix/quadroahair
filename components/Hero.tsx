@@ -25,7 +25,7 @@ export default function Hero() {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold mb-4 animate-fade-in">
-          <span className="bg-gradient-to-r from-primary-300 via-purple-300 to-accent-300 bg-clip-text text-transparent">
+          <span className="shimmer-text">
             Quadro Hair
           </span>
           <span className="block text-3xl md:text-4xl mt-2 text-white/90">Team</span>

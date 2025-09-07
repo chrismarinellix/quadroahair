@@ -22,7 +22,7 @@ export default function Header() {
       <nav className="max-width-container section-padding py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <h1 className="text-2xl md:text-3xl font-serif font-bold text-charcoal">
+            <h1 className="text-2xl md:text-3xl font-serif font-bold shimmer-text">
               QUADRO
             </h1>
             <span className="ml-2 text-sm text-primary-500 font-medium">Hair Team</span>

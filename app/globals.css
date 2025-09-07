@@ -53,4 +53,31 @@
   .button-secondary {
     @apply inline-flex items-center px-6 py-3 border-2 border-primary-400 text-primary-600 font-semibold rounded-full hover:bg-primary-400 hover:text-white transition-all duration-300;
   }
+
+  .shimmer-text {
+    background: linear-gradient(
+      120deg,
+      #ff29a8 0%,
+      #a855f7 20%,
+      #36bffa 40%,
+      #fff 50%,
+      #36bffa 60%,
+      #a855f7 80%,
+      #ff29a8 100%
+    );
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 3s linear infinite;
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: -200% center;
+    }
+    100% {
+      background-position: 200% center;
+    }
+  }
 }
