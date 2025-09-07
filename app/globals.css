@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --foreground-rgb: 42, 42, 42;
+    --background-start-rgb: 250, 247, 242;
+    --background-end-rgb: 255, 255, 255;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+  
+  .max-width-container {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .heading-1 {
+    @apply text-4xl md:text-5xl lg:text-6xl font-serif font-bold;
+  }
+
+  .heading-2 {
+    @apply text-3xl md:text-4xl lg:text-5xl font-serif font-bold;
+  }
+
+  .heading-3 {
+    @apply text-2xl md:text-3xl font-serif font-semibold;
+  }
+
+  .button-primary {
+    @apply inline-flex items-center px-6 py-3 bg-gold-400 text-white font-semibold rounded-full hover:bg-gold-500 transition-all duration-300 transform hover:scale-105;
+  }
+
+  .button-secondary {
+    @apply inline-flex items-center px-6 py-3 border-2 border-gold-400 text-gold-600 font-semibold rounded-full hover:bg-gold-400 hover:text-white transition-all duration-300;
+  }
+}
