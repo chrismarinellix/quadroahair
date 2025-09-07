@@ -4,7 +4,7 @@ import { Phone, MessageCircle, Clock, Calendar } from 'lucide-react'
 
 export default function Booking() {
   return (
-    <section id="booking" className="py-20 bg-gradient-to-r from-gold-400 to-gold-500">
+    <section id="booking" className="py-20 bg-gradient-to-r from-primary-500 via-purple-500 to-accent-500">
       <div className="max-width-container section-padding">
         <div className="text-center text-white">
           <h2 className="heading-2 mb-6">Ready for Your Transformation?</h2>
@@ -36,11 +36,11 @@ export default function Booking() {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:95617822" className="inline-flex items-center justify-center px-8 py-4 bg-white text-gold-600 font-semibold rounded-full hover:bg-cream transition-all duration-300 transform hover:scale-105">
+            <a href="tel:95617822" className="inline-flex items-center justify-center px-8 py-4 bg-white text-primary-600 font-semibold rounded-full hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-lg">
               <Phone className="w-5 h-5 mr-2" />
               Call Now: 9561 7822
             </a>
-            <a href="#" className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-semibold rounded-full hover:bg-white hover:text-gold-600 transition-all duration-300">
+            <a href="#" className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-semibold rounded-full hover:bg-white hover:text-primary-600 transition-all duration-300">
               <MessageCircle className="w-5 h-5 mr-2" />
               Send Enquiry
             </a>

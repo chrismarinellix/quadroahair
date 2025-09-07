@@ -44,26 +44,17 @@ export default function Services() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gold-50 to-white p-6 hover:shadow-xl transition-all duration-300"
+              className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-purple-50 via-primary-50 to-accent-50 p-6 hover:shadow-2xl transition-all duration-300 hover:scale-105"
             >
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  className="w-full h-full object-cover"
-                >
-                  <source src={service.video} type="video/mp4" />
-                </video>
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-500 to-purple-600" />
               </div>
               
               <div className="relative z-10">
-                <div className="text-gold-500 mb-4 group-hover:text-white transition-colors">
+                <div className="text-primary-500 mb-4 group-hover:text-white transition-colors">
                   {service.icon}
                 </div>
-                <h3 className="heading-3 text-xl mb-3 group-hover:text-white transition-colors">
+                <h3 className="heading-3 text-xl mb-3 text-charcoal group-hover:text-white transition-colors">
                   {service.title}
                 </h3>
                 <p className="text-gray-600 group-hover:text-white/90 transition-colors">

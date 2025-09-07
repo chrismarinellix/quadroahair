@@ -52,7 +52,7 @@ export default function Footer() {
                 href="https://instagram.com/quadrohair"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 bg-white/10 rounded-full hover:bg-gold-400 transition-colors"
+                className="p-2 bg-white/10 rounded-full hover:bg-primary-400 transition-colors"
               >
                 <Instagram className="w-5 h-5" />
               </a>
@@ -60,7 +60,7 @@ export default function Footer() {
                 href="https://facebook.com/quadrohair"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 bg-white/10 rounded-full hover:bg-gold-400 transition-colors"
+                className="p-2 bg-white/10 rounded-full hover:bg-primary-400 transition-colors"
               >
                 <Facebook className="w-5 h-5" />
               </a>

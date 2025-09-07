@@ -15,7 +15,7 @@ export default function Location() {
             
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
-                <MapPin className="w-6 h-6 text-gold-500 flex-shrink-0 mt-1" />
+                <MapPin className="w-6 h-6 text-primary-500 flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="font-semibold text-charcoal mb-1">Address</h4>
                   <p className="text-gray-600">
@@ -28,7 +28,7 @@ export default function Location() {
               </div>
               
               <div className="flex items-start space-x-4">
-                <Clock className="w-6 h-6 text-gold-500 flex-shrink-0 mt-1" />
+                <Clock className="w-6 h-6 text-primary-500 flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="font-semibold text-charcoal mb-1">Hours</h4>
                   <p className="text-gray-600">
@@ -40,18 +40,18 @@ export default function Location() {
               </div>
               
               <div className="flex items-start space-x-4">
-                <Phone className="w-6 h-6 text-gold-500 flex-shrink-0 mt-1" />
+                <Phone className="w-6 h-6 text-primary-500 flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="font-semibold text-charcoal mb-1">Contact</h4>
                   <p className="text-gray-600">
-                    Phone: <a href="tel:95617822" className="text-gold-500 hover:text-gold-600">9561 7822</a><br />
+                    Phone: <a href="tel:95617822" className="text-primary-500 hover:text-primary-600">9561 7822</a><br />
                     Bookings & Enquiries Welcome
                   </p>
                 </div>
               </div>
               
               <div className="flex items-start space-x-4">
-                <Car className="w-6 h-6 text-gold-500 flex-shrink-0 mt-1" />
+                <Car className="w-6 h-6 text-primary-500 flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="font-semibold text-charcoal mb-1">Parking</h4>
                   <p className="text-gray-600">

@@ -2,11 +2,12 @@
 
 import Hero from '@/components/Hero'
 import Services from '@/components/Services'
-import Gallery from '@/components/Gallery'
 import About from '@/components/About'
+import Team from '@/components/Team'
+import Gallery from '@/components/Gallery'
 import Booking from '@/components/Booking'
-import Location from '@/components/Location'
 import InstagramFeed from '@/components/InstagramFeed'
+import Location from '@/components/Location'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <Services />
       <About />
+      <Team />
       <Gallery />
       <Booking />
       <InstagramFeed />

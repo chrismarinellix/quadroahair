@@ -10,7 +10,7 @@ export default function About() {
           <div>
             <h2 className="heading-2 text-charcoal mb-6">
               Melbourne&apos;s Premier
-              <span className="block text-gold-500">Hair Specialists</span>
+              <span className="block bg-gradient-to-r from-primary-500 to-purple-500 bg-clip-text text-transparent">Hair Specialists</span>
             </h2>
             <p className="text-lg text-gray-600 mb-6">
               At Quadro Hair Team, we&apos;re passionate about creating beautiful, personalized hair color 
@@ -25,28 +25,28 @@ export default function About() {
             
             <div className="grid grid-cols-2 gap-6">
               <div className="flex items-start space-x-3">
-                <Award className="w-6 h-6 text-gold-500 flex-shrink-0 mt-1" />
+                <Award className="w-6 h-6 text-primary-500 flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="font-semibold text-charcoal">Expert Team</h4>
                   <p className="text-sm text-gray-600">Certified color specialists</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <Users className="w-6 h-6 text-gold-500 flex-shrink-0 mt-1" />
+                <Users className="w-6 h-6 text-primary-500 flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="font-semibold text-charcoal">Personalized</h4>
                   <p className="text-sm text-gray-600">Tailored to you</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <Heart className="w-6 h-6 text-gold-500 flex-shrink-0 mt-1" />
+                <Heart className="w-6 h-6 text-primary-500 flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="font-semibold text-charcoal">Caring</h4>
                   <p className="text-sm text-gray-600">Hair health first</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <Star className="w-6 h-6 text-gold-500 flex-shrink-0 mt-1" />
+                <Star className="w-6 h-6 text-primary-500 flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="font-semibold text-charcoal">5-Star Service</h4>
                   <p className="text-sm text-gray-600">Client satisfaction</p>
@@ -67,7 +67,7 @@ export default function About() {
                 <source src="/videos/salon-tour.mp4" type="video/mp4" />
               </video>
             </div>
-            <div className="absolute -bottom-6 -left-6 bg-gold-400 text-white p-6 rounded-2xl max-w-xs">
+            <div className="absolute -bottom-6 -left-6 bg-gradient-to-r from-primary-500 to-purple-500 text-white p-6 rounded-2xl max-w-xs shadow-xl">
               <p className="text-2xl font-bold mb-1">10+ Years</p>
               <p className="text-sm">of Excellence in Hair Color</p>
             </div>

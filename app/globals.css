@@ -47,10 +47,10 @@
   }
 
   .button-primary {
-    @apply inline-flex items-center px-6 py-3 bg-gold-400 text-white font-semibold rounded-full hover:bg-gold-500 transition-all duration-300 transform hover:scale-105;
+    @apply inline-flex items-center px-6 py-3 bg-gradient-to-r from-primary-500 to-purple-500 text-white font-semibold rounded-full hover:from-primary-600 hover:to-purple-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl;
   }
 
   .button-secondary {
-    @apply inline-flex items-center px-6 py-3 border-2 border-gold-400 text-gold-600 font-semibold rounded-full hover:bg-gold-400 hover:text-white transition-all duration-300;
+    @apply inline-flex items-center px-6 py-3 border-2 border-primary-400 text-primary-600 font-semibold rounded-full hover:bg-primary-400 hover:text-white transition-all duration-300;
   }
 }
